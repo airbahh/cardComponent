@@ -3,26 +3,30 @@
     padding: 0;
     box-sizing: border-box;
     font-family: kumbh sans; 
-    color: rgba(49, 49, 49, 0.753);
+    color: hsla(229, 23%, 23%, 0.568);
     text-align: center;
 
 }
 
+
 .background{
+    width: 100%;
     background-color: hsl(185, 75%, 39%); 
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-position: right 50vw bottom 50vh , left 50vw top 50vh;
     overflow: hidden;
+    position: static;
     background-repeat: no-repeat;
     min-height: 100vh;
-    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .card{
     background-image:url(images/bg-pattern-card.svg) ;
-    max-width: 350px;
-    min-width: 325px;
-    margin: 150px auto 20px auto ;
+    width: 350px;
+    margin: 0 auto ;
     background-color: white ;
     border-radius: 13px;
     background-repeat: no-repeat;
@@ -45,18 +49,18 @@ p{
     font-size: 12px;
     letter-spacing: 2px;
 }
+
 h1{
     font-weight: 700;   
     font-size: 18px;
-    color: rgba(49, 49, 49);
     margin-bottom: 8px;
+    color: hsla(229, 23%, 23%);
 }
 
 h2, span{
     font-weight: 400;
     font-size: 16px;
 }
-
 
 .info{
     margin-top: 30px;
