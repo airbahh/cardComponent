@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: kumbh sans; 
+    color: rgba(49, 49, 49, 0.753);
+    text-align: center;
+
+}
+
+.background{
+    background-color: hsl(185, 75%, 39%); 
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: right 50vw bottom 50vh , left 50vw top 50vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+.card{
+    background-image:url(images/bg-pattern-card.svg) ;
+    max-width: 350px;
+    min-width: 325px;
+    margin: 150px auto 20px auto ;
+    background-color: white ;
+    border-radius: 13px;
+    background-repeat: no-repeat;
+    box-shadow: 2px 4px 18px hsla(240, 1%, 19%, 0.418), -2px 0px 8px hsla(227, 10%, 46%, 0.60);
+
+}
+.card>div{
+    position: relative;
+    padding-top: 60px;
+}
+
+img{
+    margin: 20px 0px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+p{
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+h1{
+    font-weight: 700;   
+    font-size: 18px;
+    color: rgba(49, 49, 49);
+    margin-bottom: 8px;
+}
+
+h2, span{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.info{
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    border-top:  1px solid rgba(128, 128, 128, 0.322);
+}
+
+.info div{
+    margin: 20px 25px;
+}
